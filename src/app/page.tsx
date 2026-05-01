@@ -10,7 +10,7 @@ import MetricCardOne from "@/components/sections/metrics/MetricCardOne";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterBase from "@/components/sections/footer/FooterBase";
 import TestimonialCardFifteen from "@/components/sections/testimonial/TestimonialCardFifteen";
-import { Bot, BrainCircuit, Workflow, Zap, ArrowUpRight } from "lucide-react";
+import { Bot, BrainCircuit, Workflow, Zap, ArrowUpRight, Cpu, Network, Database } from "lucide-react";
 
 export default function WebAgency2Page() {
   return (
@@ -41,20 +41,20 @@ export default function WebAgency2Page() {
         </div>
         <div id="hero" data-section="hero">
           <HeroSplitDoubleCarousel
-            title="Scale Smarter with Intelligent AI Agents"
-            description="We engineer autonomous AI systems and high-impact automations that streamline your operations and drive predictable revenue growth."
-            tag="AI-First Digital Systems"
-            tagIcon={BrainCircuit}
+            title="Engineering Autonomous AI Automations"
+            description="We architect intelligent agent ecosystems and workflow automation for CONFLUXSYSTEMS to eliminate bottlenecks and unlock high-scale operational efficiency."
+            tag="AI Engineering & Automation"
+            tagIcon={Cpu}
             tagAnimation="slide-up"
             background={{ variant: "canvas-reveal" }}
             buttons={[
-              { text: "Schedule Strategy", href: "#contact" },
-              { text: "Our AI Agents", href: "#services" },
+              { text: "Schedule AI Audit", href: "#contact" },
+              { text: "Our Services", href: "#features" },
             ]}
             buttonAnimation="slide-up"
             carouselPosition="right"
             leftCarouselItems={[
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-1.webp", imageAlt: "AI Workflow Design" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6eivSkkTGgp8DaDxCBCnRMlxl/uploaded-1777628527555-a5q88ct8.png", imageAlt: "AI Orchestration Framework" },
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-4.webp", imageAlt: "Autonomous Agent Systems" },
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-6.webp", imageAlt: "Predictive Analytics Dashboard" },
             ]}
@@ -68,30 +68,30 @@ export default function WebAgency2Page() {
         </div>
         <div id="features" data-section="features">
           <FeatureBento
-            title="AI-Powered Solutions"
-            description="Transform your business infrastructure with our bespoke AI development services."
+            title="Automated Systems Infrastructure"
+            description="We build modular, scalable AI automations to transform legacy operations into high-velocity digital machines."
             textboxLayout="default"
             useInvertedBackground={false}
             animationType="slide-up"
-            buttons={[{ text: "Explore All Services", href: "#services" }]}
+            buttons={[{ text: "Explore All Automations", href: "#services" }]}
             buttonAnimation="slide-up"
             features={[
               {
-                title: "Autonomous Agents",                description: "Deploy intelligent agents that handle complex customer interactions and lead qualification 24/7.",                bentoComponent: "marquee",                centerIcon: Bot,
-                variant: "text",                texts: ["Customer Support", "Lead Nurturing", "Appointment Setting", "Task Automation", "Data Synthesis", "Personalization"],
+                title: "Intelligent AI Agents",                description: "Bespoke agents handling complex logic, data synthesis, and autonomous decision-making.",                bentoComponent: "marquee",                centerIcon: BrainCircuit,
+                variant: "text",                texts: ["Adaptive Logic", "Context Awareness", "Natural Interaction", "Workflow Delegation", "Real-time Synthesis", "Scalable Decisioning"],
               },
               {
-                title: "Business Automations",                description: "Remove operational friction by integrating smart workflows across your entire tech stack.",                bentoComponent: "media-stack",                items: [
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-2.webp", imageAlt: "AI Workflow Automation" },
+                title: "Automated Workflows",                description: "Connecting your entire ecosystem to eliminate manual latency and process friction.",                bentoComponent: "media-stack",                items: [
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6eivSkkTGgp8DaDxCBCnRMlxl/uploaded-1777628527555-a5q88ct8.png", imageAlt: "AI Agent Deployment" },
                   { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-1.webp?_wi=1", imageAlt: "Systems Integration" },
                   { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-3.webp?_wi=1", imageAlt: "Data Strategy" },
                 ],
               },
               {
-                title: "Predictive Strategy",                description: "Leverage machine learning insights to optimize decision-making and project performance.",                bentoComponent: "media-stack",                items: [
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-3.webp?_wi=2", imageAlt: "Data Strategy" },
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-2.webp?_wi=2", imageAlt: "AI Performance" },
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-1.webp?_wi=2", imageAlt: "AI Systems" },
+                title: "Infrastructure & Data",                description: "Laying the robust foundation for high-performance machine learning initiatives.",                bentoComponent: "media-stack",                items: [
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-3.webp?_wi=2", imageAlt: "Data Architecture" },
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-2.webp?_wi=2", imageAlt: "Model Optimization" },
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-1.webp?_wi=2", imageAlt: "Cloud Integration" },
                 ],
               },
             ]}
@@ -99,31 +99,31 @@ export default function WebAgency2Page() {
         </div>
         <div id="impact" data-section="impact">
           <FeatureCardTwentySix
-            title="Our Impact"
-            description="See how our intelligent systems drive measurable business results."
+            title="Engineered Efficiency"
+            description="Real-world impact through autonomous systems and smart automation."
             textboxLayout="default"
             useInvertedBackground={false}
-            buttons={[{ text: "See Case Studies", href: "#work" }]}
+            buttons={[{ text: "See Performance Metrics", href: "#metrics" }]}
             buttonAnimation="slide-up"
             cardClassName="!h-auto aspect-video"
             features={[
               {
-                title: "SaaS Growth Agent",                description: "Increased demo bookings by 40% via automated outreach.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-1.webp",                imageAlt: "SaaS Growth Case Study",                buttonIcon: ArrowUpRight,
-                buttonHref: "#"},
+                title: "AI Lead Engines",                description: "Automated 24/7 lead qualification and pipeline enrichment.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6eivSkkTGgp8DaDxCBCnRMlxl/uploaded-1777628527555-a5q88ct8.png",                imageAlt: "AI Lead Engine",                buttonIcon: ArrowUpRight,
+              },
               {
-                title: "Operational Workflow",                description: "Reduced manual data entry overhead by 60%.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-2.webp",                imageAlt: "Workflow Automation Case Study",                buttonIcon: ArrowUpRight,
-                buttonHref: "#"},
+                title: "Process Automation",                description: "Reduced operational cycle times by over 60% with custom agents.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-2.webp",                imageAlt: "Process Automation",                buttonIcon: ArrowUpRight,
+              },
               {
-                title: "Customer Support AI",                description: "Automated 85% of tier-1 support tickets instantly.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-3.webp",                imageAlt: "Support AI Case Study",                buttonIcon: ArrowUpRight,
-                buttonHref: "#"},
+                title: "Agentic Support",                description: "Automated 85% of tier-1 support using CONFLUXSYSTEMS standard models.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-3.webp",                imageAlt: "Support AI",                buttonIcon: ArrowUpRight,
+              },
             ]}
           />
         </div>
         <div id="testimonials" data-section="testimonials">
           <TestimonialCardFifteen
-            testimonial="CONFLUXSYSTEMS integrated AI into our daily workflow effortlessly. Our productivity has doubled and our lead response time is now instantaneous."
+            testimonial="The AI automation framework built by CONFLUXSYSTEMS has fundamentally changed our output. We're no longer just working faster; we're working smarter."
             rating={5}
-            author="— Alex Chen, Founder at TechFlow Dynamics"
+            author="— Alex Chen, Lead Architect"
             avatars={[
               { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.webp", alt: "Client" },
             ]}
@@ -134,28 +134,28 @@ export default function WebAgency2Page() {
         </div>
         <div id="metrics" data-section="metrics">
           <MetricCardOne
-            title="Efficiency At Scale"
-            description="Driving performance through intelligent automation and machine learning."
+            title="Metrics of Autonomy"
+            description="Driving results through intelligent systems design and automation."
             textboxLayout="default"
             useInvertedBackground={false}
             gridVariant="uniform-all-items-equal"
             animationType="slide-up"
             metrics={[
               { id: "automation", value: "500+", title: "Automations", description: "Deployed and optimized smart workflows", icon: Workflow },
-              { id: "agents", value: "40%", title: "Average Gain", description: "Average efficiency boost for our clients", icon: Zap },
-              { id: "years", value: "10+", title: "Integrations", description: "Seamless connections to your core business tools", icon: Bot },
+              { id: "agents", value: "40%", title: "Avg Efficiency", description: "Average productivity boost per deployment", icon: Zap },
+              { id: "data", value: "10+", title: "Integrations", description: "Deep integrations with critical stack components", icon: Database },
             ]}
           />
         </div>
         <div id="contact" data-section="contact">
           <ContactCTA
-            tag="Accelerate Your Business"
-            title="Ready to Build Your AI Future?"
-            description="Book a discovery call today and see how our autonomous agents can transform your operations."
+            tag="Engineered for Growth"
+            title="Discuss Your AI Automation Roadmap"
+            description="Ready to deploy intelligent agents? Let's design the next generation of operations for CONFLUXSYSTEMS."
             background={{ variant: "rotated-rays-animated" }}
             buttons={[
-              { text: "Schedule Strategy Call", href: "#contact" },
-              { text: "See Our Capabilities", href: "#services" },
+              { text: "Schedule AI Audit", href: "#contact" },
+              { text: "See Our Work", href: "#work" },
             ]}
             buttonAnimation="slide-up"
             useInvertedBackground={false}
@@ -177,9 +177,9 @@ export default function WebAgency2Page() {
               {
                 title: "Solutions",                items: [
                   { label: "AI Agents", href: "#" },
-                  { label: "Automations", href: "#" },
-                  { label: "Data Strategy", href: "#" },
-                  { label: "Integrations", href: "#" },
+                  { label: "Workflow Automations", href: "#" },
+                  { label: "Infrastructure", href: "#" },
+                  { label: "System Audit", href: "#" },
                 ],
               },
               {
