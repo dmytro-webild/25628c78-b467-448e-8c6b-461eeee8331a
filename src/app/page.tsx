@@ -54,7 +54,7 @@ export default function WebAgency2Page() {
             buttonAnimation="slide-up"
             carouselPosition="right"
             leftCarouselItems={[
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6eivSkkTGgp8DaDxCBCnRMlxl/uploaded-1777628527555-a5q88ct8.png", imageAlt: "AI Orchestration Framework" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6eivSkkTGgp8DaDxCBCnRMlxl/uploaded-1777628527555-a5q88ct8.png?_wi=1", imageAlt: "AI Orchestration Framework" },
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-4.webp", imageAlt: "Autonomous Agent Systems" },
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-6.webp", imageAlt: "Predictive Analytics Dashboard" },
             ]}
@@ -82,7 +82,7 @@ export default function WebAgency2Page() {
               },
               {
                 title: "Automated Workflows",                description: "Connecting your entire ecosystem to eliminate manual latency and process friction.",                bentoComponent: "media-stack",                items: [
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6eivSkkTGgp8DaDxCBCnRMlxl/uploaded-1777628527555-a5q88ct8.png", imageAlt: "AI Agent Deployment" },
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6eivSkkTGgp8DaDxCBCnRMlxl/uploaded-1777628527555-a5q88ct8.png?_wi=2", imageAlt: "AI Agent Deployment" },
                   { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-1.webp?_wi=1", imageAlt: "Systems Integration" },
                   { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-3.webp?_wi=1", imageAlt: "Data Strategy" },
                 ],
@@ -108,7 +108,7 @@ export default function WebAgency2Page() {
             cardClassName="!h-auto aspect-video"
             features={[
               {
-                title: "AI Lead Engines",                description: "Automated 24/7 lead qualification and pipeline enrichment.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6eivSkkTGgp8DaDxCBCnRMlxl/uploaded-1777628527555-a5q88ct8.png",                imageAlt: "AI Lead Engine",                buttonIcon: ArrowUpRight,
+                title: "AI Lead Engines",                description: "Automated 24/7 lead qualification and pipeline enrichment.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6eivSkkTGgp8DaDxCBCnRMlxl/uploaded-1777628527555-a5q88ct8.png?_wi=3",                imageAlt: "AI Lead Engine",                buttonIcon: ArrowUpRight,
               },
               {
                 title: "Process Automation",                description: "Reduced operational cycle times by over 60% with custom agents.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-2.webp",                imageAlt: "Process Automation",                buttonIcon: ArrowUpRight,
