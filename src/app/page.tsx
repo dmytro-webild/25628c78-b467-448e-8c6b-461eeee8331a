@@ -54,14 +54,14 @@ export default function WebAgency2Page() {
             buttonAnimation="slide-up"
             carouselPosition="right"
             leftCarouselItems={[
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6eivSkkTGgp8DaDxCBCnRMlxl/uploaded-1777628755143-tsvegbyk.png", imageAlt: "AI Orchestration Framework" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6eivSkkTGgp8DaDxCBCnRMlxl/uploaded-1777628755143-tsvegbyk.png?_wi=1", imageAlt: "AI Orchestration Framework" },
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-4.webp", imageAlt: "Autonomous Agent Systems" },
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-6.webp", imageAlt: "Predictive Analytics Dashboard" },
             ]}
             rightCarouselItems={[
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-3.webp", imageAlt: "Scalable AI Automation" },
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-8.webp", imageAlt: "Operational Efficiency" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6eivSkkTGgp8DaDxCBCnRMlxl/uploaded-1777628755143-tsvegbyk.png", imageAlt: "Performance Data" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6eivSkkTGgp8DaDxCBCnRMlxl/uploaded-1777628755143-tsvegbyk.png?_wi=2", imageAlt: "Performance Data" },
             ]}
             carouselItemClassName="!aspect-[4/5]"
           />
@@ -82,16 +82,16 @@ export default function WebAgency2Page() {
               },
               {
                 title: "Automated Workflows",                description: "Connecting your entire ecosystem to eliminate manual latency and process friction.",                bentoComponent: "media-stack",                items: [
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6eivSkkTGgp8DaDxCBCnRMlxl/uploaded-1777628755143-tsvegbyk.png", imageAlt: "AI Agent Deployment" },
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-1.webp", imageAlt: "Systems Integration" },
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-3.webp", imageAlt: "Data Strategy" },
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6eivSkkTGgp8DaDxCBCnRMlxl/uploaded-1777628755143-tsvegbyk.png?_wi=3", imageAlt: "AI Agent Deployment" },
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-1.webp?_wi=1", imageAlt: "Systems Integration" },
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-3.webp?_wi=1", imageAlt: "Data Strategy" },
                 ],
               },
               {
                 title: "Infrastructure & Data",                description: "Laying the robust foundation for high-performance machine learning initiatives.",                bentoComponent: "media-stack",                items: [
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-3.webp", imageAlt: "Data Architecture" },
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6eivSkkTGgp8DaDxCBCnRMlxl/uploaded-1777628755143-tsvegbyk.png", imageAlt: "Model Optimization" },
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-1.webp", imageAlt: "Cloud Integration" },
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-3.webp?_wi=2", imageAlt: "Data Architecture" },
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6eivSkkTGgp8DaDxCBCnRMlxl/uploaded-1777628755143-tsvegbyk.png?_wi=4", imageAlt: "Model Optimization" },
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-1.webp?_wi=2", imageAlt: "Cloud Integration" },
                 ],
               },
             ]}
@@ -108,7 +108,7 @@ export default function WebAgency2Page() {
             cardClassName="!h-auto aspect-video"
             features={[
               {
-                title: "AI Lead Engines",                description: "Automated 24/7 lead qualification and pipeline enrichment.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6eivSkkTGgp8DaDxCBCnRMlxl/uploaded-1777628755143-tsvegbyk.png",                imageAlt: "AI Lead Engine",                buttonIcon: ArrowUpRight,
+                title: "AI Lead Engines",                description: "Automated 24/7 lead qualification and pipeline enrichment.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6eivSkkTGgp8DaDxCBCnRMlxl/uploaded-1777628755143-tsvegbyk.png?_wi=5",                imageAlt: "AI Lead Engine",                buttonIcon: ArrowUpRight,
               },
               {
                 title: "Process Automation",                description: "Reduced operational cycle times by over 60% with custom agents.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-2.webp",                imageAlt: "Process Automation",                buttonIcon: ArrowUpRight,
