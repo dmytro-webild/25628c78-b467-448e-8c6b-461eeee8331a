@@ -10,7 +10,7 @@ import MetricCardOne from "@/components/sections/metrics/MetricCardOne";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterBase from "@/components/sections/footer/FooterBase";
 import TestimonialCardFifteen from "@/components/sections/testimonial/TestimonialCardFifteen";
-import { BrainCircuit, Workflow, Zap, ArrowUpRight, Cpu, Database, Network } from "lucide-react";
+import { BrainCircuit, Workflow, Zap, ArrowUpRight, Cpu, Database } from "lucide-react";
 
 export default function WebAgency2Page() {
   return (
@@ -33,6 +33,7 @@ export default function WebAgency2Page() {
             navItems={[
               { name: "Work", id: "work" },
               { name: "Services", id: "services" },
+              { name: "Pricing", id: "pricing" },
               { name: "About", id: "about" },
               { name: "Contact", id: "contact" },
             ]}
